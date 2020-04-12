@@ -212,3 +212,16 @@ ul{
     padding-top: 94px;
     padding-bottom: 80px;
 }
+
+.image-wrap{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 255px;
+    height: 280px;
+    background-color: #e8effc;
+}
+
+.image-wrap img{
+    display: inline-block;
+}
