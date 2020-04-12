@@ -123,11 +123,12 @@ ul{
 .products-element:not(:nth-last-child(-n+4)){
     margin-bottom: 30px;
 }
-.product-description{
+.product-description {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     color: white;
     font-size: 18px;
+    text-transform: uppercase;
 }
 
 .product-name{
@@ -182,7 +183,7 @@ ul{
 
 .news-description {
     margin: 0;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     color: #555252;
     font-size: 14px;
     line-height: 1.9;
