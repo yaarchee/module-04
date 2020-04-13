@@ -110,15 +110,12 @@ ul{
 
 
 }
-.products-element:hover .product-name,
-.products-element:focus .product-name{
+.product-description:hover,
+.product-description:focus{
     background-color: #1abc9c;
 }
 
-.products-element:hover .product-price,
-.products-element:hover .product-price{
-    background-color: #7fd9c7;
-}
+
 .products-element:not(:nth-child(4n)){
     margin-right: 30px;
 }
@@ -131,25 +128,24 @@ ul{
     color: white;
     font-size: 18px;
     text-transform: uppercase;
+    background-color: #323232;
+    transition: 0.3s;
 }
 
 .product-name{
-    background-color: #323232;
     float: left;
     margin: 0;
     padding: 12px 14px;
-    width: calc(100% - 54px);
-    transition: 0.3s;
+    width: 80%;
     font-size: 18px;
 
 }
-.product-price{
-    background-color: #8c8c8c;
+.product-price {
+    background-color: rgba(255, 255, 255, 0.44);
     margin: 0;
     float: left;
     padding: 12px 11px;
-    transition: 0.3s;
-
+    width: 20%;
 }
 
 .news-element {
