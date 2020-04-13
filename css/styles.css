@@ -99,10 +99,12 @@ ul{
     padding-top: 70px;
 }
 
-.products{
+.products {
     padding: 0;
     margin: 0;
+    padding-top: 6px;
 }
+
 .products-element{
     float: left;
 
@@ -138,6 +140,7 @@ ul{
     padding: 12px 14px;
     width: calc(100% - 54px);
     transition: 0.3s;
+    font-size: 18px;
 
 }
 .product-price{
@@ -214,6 +217,10 @@ ul{
     padding-bottom: 80px;
 }
 
+.main-news .main-title{
+    margin-bottom: 109px;
+}
+
 .image-wrap{
     display: table-cell;
     text-align: center;
@@ -225,4 +232,7 @@ ul{
 
 .image-wrap img{
     display: inline-block;
+}
+.product-link{
+    display: block;
 }
