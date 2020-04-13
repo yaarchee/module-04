@@ -110,8 +110,7 @@ ul{
 
 
 }
-.product-description:hover,
-.product-description:focus{
+.products-element:hover .product-description {
     background-color: #1abc9c;
 }
 
