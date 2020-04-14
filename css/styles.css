@@ -53,7 +53,8 @@ ul{
     color: #1abc9c;
 }
 .nav {
-    float: right;    
+    float: right;
+    padding-top: 10px;
 }
 .main-nav-list{
     text-transform: uppercase;
