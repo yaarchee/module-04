@@ -203,7 +203,8 @@ ul{
     transition: 0.3s;
     padding: 16px 42px;
     border-radius: 3px;
-    border: 1px solid #4ec6ab;;
+    border: 1px solid #4ec6ab;
+    display: inline-block;
 }
 
 .btn-more:hover{
