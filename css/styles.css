@@ -30,8 +30,7 @@ ul{
 }
 
 .container{
-    max-width: 1110px;
-    width: 100%;
+    max-width: 1110px;   
     margin: 0 auto;
 }
 .wrap-nav{
@@ -68,6 +67,7 @@ ul{
 .nav-list-item{
     display: inline-block;
     float: left;
+    margin-right: 30px;
 }
 .nav-list-item a{
     display: block;
@@ -77,8 +77,8 @@ ul{
     color: #1abc9c;
 }
 
-.nav-list-item:not(:nth-last-child(1)){
-    margin-right: 30px;
+.nav-list-item:last-child{
+    margin-right: 0;
 }
 .main-title {
     margin: 0 auto;
