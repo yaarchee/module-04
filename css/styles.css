@@ -123,7 +123,7 @@ ul{
 .products-element:not(:nth-child(4n)){
     margin-right: 30px;
 }
-.products-element:not(:nth-last-child(-n+4)){
+.products-element{
     margin-bottom: 30px;
 }
 .product-description {
