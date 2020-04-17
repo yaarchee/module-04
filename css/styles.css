@@ -139,17 +139,16 @@ ul{
 .product-name{
     float: left;
     margin: 0;
-    padding: 12px 14px;
-    width: 80%;
+    padding: 12px 14px;    
     font-size: 18px;
 
 }
 .product-price {
     background-color: rgba(255, 255, 255, 0.44);
     margin: 0;
-    float: left;
+    float: right;
     padding: 12px 11px;
-    width: 20%;
+    
 }
 
 .news-element {
